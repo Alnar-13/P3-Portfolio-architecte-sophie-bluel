@@ -4,6 +4,7 @@ const token = localStorage.getItem("token");
 const getApi = async () => {
   try {
     const response = await fetch("http://localhost:5678/api/works");
+    console.log(response.json)
     const data = await response.json();
 
     return data;
@@ -46,6 +47,7 @@ getCategoriesApi().then((categories) => {
       );
       renderGallery(filteredData);
     });
+
 
     buttonsContainer.appendChild(button);
   });

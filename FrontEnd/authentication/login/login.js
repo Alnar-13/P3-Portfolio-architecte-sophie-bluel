@@ -25,7 +25,7 @@ const login = async (email, password) => {
       window.location.href = "../../home.html";
       console.log(token);
     } else {
-      errorMessage.textContent = "Erreur dans l’identifiant ou le mot de passe";
+      errorMessage.textContent = "Erreur dans l’identifiant et/ou le mot de passe";
       connectButton.classList.add("shake");
 
       setTimeout(() => {

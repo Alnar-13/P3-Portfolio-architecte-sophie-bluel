@@ -105,17 +105,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,10 +127,12 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /** end reset css**/
 body {
   max-width: 1140px;
@@ -135,11 +141,13 @@ body {
   font-size: 14px;
   background-color: #fffef8;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   margin: 50px 0;
 }
+
 section {
   margin: 50px 0;
 }
@@ -165,11 +173,13 @@ h2 {
   font-size: 30px;
   color: #1d6154;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   padding: 0 10px;
 }
@@ -192,9 +202,11 @@ nav li {
   display: flex;
   align-items: center;
 }
+
 #introduction figure {
   flex: 1;
 }
+
 #introduction img {
   width: 80%;
 }
@@ -203,9 +215,11 @@ nav li {
   flex: 1;
   height: 100%;
 }
+
 #introduction button {
   margin: 1em 0 3em 0;
 }
+
 #introduction h2 {
   margin-bottom: 1em;
 }
@@ -217,9 +231,11 @@ nav li {
 #portfolio {
   margin-top: 8.75rem;
 }
+
 #portfolio h2 {
   text-align: center;
 }
+
 .gallery {
   width: 100%;
   display: grid;
@@ -231,16 +247,20 @@ nav li {
 .gallery img {
   width: 100%;
 }
+
 #contact {
   width: 50%;
   margin: auto;
 }
+
 #contact > * {
   text-align: center;
 }
+
 #contact h2 {
   margin-bottom: 20px;
 }
+
 #contact form {
   text-align: left;
   margin-top: 30px;
@@ -254,9 +274,11 @@ nav li {
   border: none;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
 }
+
 #contact label {
   margin: 2em 0 1em 0;
 }
+
 #contact textarea {
   border: none;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
@@ -273,9 +295,11 @@ input[type="submit"] {
   border-radius: 60px;
   cursor: pointer;
 }
+
 input[type="submit"]:hover {
   background-color: black;
 }
+
 footer nav ul {
   display: flex;
   justify-content: flex-end;
@@ -299,6 +323,7 @@ footer nav ul {
   border: none;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
 }
+
 #login label {
   margin: 2em 0 1em 0;
 }
@@ -321,6 +346,7 @@ footer nav ul {
   margin-top: 1em;
   text-align: center;
 }
+
 .shake {
   animation: shake 0.3s ease-in-out;
 }
@@ -362,10 +388,8 @@ footer nav ul {
   border-radius: 2em;
   padding: 0.5em 1.5em;
   font-size: 1rem;
-
   font-family: "Syne";
   font-weight: 700;
-
   cursor: pointer;
 }
 
@@ -443,9 +467,7 @@ footer nav ul {
   border: 2px solid white;
   padding: 0.4em 1em;
   border-radius: 1em;
-
   font-family: "Work Sans";
-
   font-weight: 500;
   font-size: 0.875rem;
   cursor: pointer;
@@ -473,6 +495,7 @@ footer nav ul {
 .modal-container.active {
   visibility: visible;
 }
+
 .overlay {
   position: absolute;
   width: 100%;
@@ -676,6 +699,7 @@ footer nav ul {
 .back-to-gallery:hover {
   color: #b1663c;
 }
+
 .confirm-button-form-add {
   align-self: center;
   font-family: "Syne";
@@ -690,9 +714,9 @@ footer nav ul {
   color: white;
   border-radius: 2em;
   font-family: "Syne";
-
   cursor: pointer;
 }
+
 .confirm-button-form-add.active {
   background-color: #1d6154;
 }
@@ -751,10 +775,12 @@ footer nav ul {
   font-size: 0.875rem;
   margin-bottom: 0.5rem;
 }
+
 .button-upload-photo:hover {
   background-color: #306685;
   color: white;
 }
+
 .drop-zone svg {
   width: 65px;
   height: auto;
@@ -789,6 +815,7 @@ footer nav ul {
   width: 15px;
   align-self: center;
 }
+
 .preview-delete-btn:hover {
   background: #d65353;
 }

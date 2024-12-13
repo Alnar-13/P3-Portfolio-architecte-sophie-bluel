@@ -71,7 +71,7 @@ const getGalleryModalItems = (data) => {
 // manage element modal  //
 
 const modalElement = (data) => {
-  modalTitle.textContent = "Gallerie photo";
+  modalTitle.textContent = "Galerie photo";
 
   galleryModal.style.display = "flex";
   addPicture.style.display = "block";
@@ -101,7 +101,7 @@ getApi().then((data) => {
 
 getApi().then(() => {
   // update modal to next page //
-  addPicture.addEventListener("click", () => {
+    addPicture.addEventListener("click", () => {
     modalTitle.textContent = "Ajout Photo";
     galleryModal.style.display = "none";
     addPicture.style.display = "none";
@@ -159,7 +159,7 @@ const getPostItemApi = async (formData) => {
       // add small delay to update modal gallery otherwise transition is not smooth //
       setTimeout(() => {
         // update modal gallery //
-        modalTitle.textContent = "Gallerie photo";
+        modalTitle.textContent = "Galerie photo";
         galleryModal.style.display = "flex";
         addPicture.style.display = "block";
         formAddPicture.style.display = "none";
@@ -182,6 +182,10 @@ const getPostItemApi = async (formData) => {
     console.log(error);
   }
 };
+
+buttonUploadPhoto.addEventListener("click", () => {
+  fileInput.click();
+});
 
 //form add picture
 
